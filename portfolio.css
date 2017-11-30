@@ -1,0 +1,26 @@
+h1 {
+    display: flex;
+}
+header {
+    display: flex;
+}
+#profileImage {
+    display: flex;
+    width: 35px;
+    height: 40px;
+    border-radius: 25px;
+    align-items: center;
+    
+}
+
+.flex-container {
+
+        display: flex;
+        justify-content: center;
+
+}
+
+footer {
+
+    display: flex;
+}
