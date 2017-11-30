@@ -1,53 +1,26 @@
 h1 {
     display: flex;
-    justify-content: center;
 }
 header {
     display: flex;
-    justify-content: space-between;
 }
 #profileImage {
+    display: flex;
     width: 35px;
     height: 40px;
     border-radius: 25px;
-    justify-content: center;
+    align-items: center;
     
 }
 
-#contactMe {
-
-    margin-top: 800px;
-}
-
 .flex-container {
+
         display: flex;
         justify-content: center;
 
 }
 
-footer p {
-    float: right;
+footer {
+
     display: flex;
-    align-content: center;
-
-}
-
-.copyright {
-    float: left;
-
-}
-
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    content: " ";
-    clear: both;
-    height: 0;
-    font-size: 0;
-    }
-
-.name {
-    color: #f15b31;
-    font-weight: 100;
 }
