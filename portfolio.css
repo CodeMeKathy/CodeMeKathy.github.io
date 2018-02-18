@@ -69,13 +69,14 @@ img {
 footer {
 
     display: flex;
+    padding-bottom: auto;
 }
 
 body {
-    background-image: url("");
+    background-image: url("https://github.com/Kathy145/Kathy145.github.io/blob/master/images/regal.png?raw=true");
     display: flex;
     flex-direction: column;
-    height: 500px;
+    /* height: 1200px; */
 
 }
 
