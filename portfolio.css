@@ -16,13 +16,35 @@ header {
 }
 
 .profileImage {
-  margin: 0 100px 20px 1500px;
+  margin: 0 100px 20px 880px;
   align-items: right;
   border-radius: 150px;
   top: 80px;
   right: 20px;
   width: 375px;
-  height: 450px;    
+  height: 450px;  
+  margin-bottom: -275px;  
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.brand {
+  font-size: 30px;
+  margin: -30px 0px 0 200px;
+  display: block;
+  height: 450px;
+  width: 650px;
+  font-family: 'Roboto', sans-serif;
+}
+.portfolio {
+
+  font-size: 75px;
+  text-align: center;
+  font-style: italic;
+  margin: 120px 0 10px 0;
 }
 
 .contactMe {
@@ -95,4 +117,8 @@ img {
   width: 750px;
   display: block;
   margin: 0 auto;
+}
+
+.contact-me {
+  text-align: center;
 }
