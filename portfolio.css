@@ -122,3 +122,8 @@ img {
 .contact-me {
   text-align: center;
 }
+
+embed {
+  display: block;
+  margin: 0 auto;
+}
