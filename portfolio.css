@@ -126,4 +126,11 @@ img {
 embed {
   display: block;
   margin: 0 auto;
+  width: 60%;
+  height: 600px;;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
 }
