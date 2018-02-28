@@ -28,7 +28,16 @@ header {
 
 h3 {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+.resume {
+  margin-top: 80px;
+}
+
+.portfolio {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 .brand {
@@ -37,8 +46,9 @@ h3 {
   display: block;
   height: 450px;
   width: 650px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
+
 .portfolio {
 
   font-size: 75px;
@@ -46,6 +56,11 @@ h3 {
   font-style: italic;
   margin: 120px 0 10px 0;
 }
+
+/* .p1 {
+  height: 50px;
+  width: 50px;
+} */
 
 .contactMe {
 
@@ -165,9 +180,4 @@ iframe {
 /* icon prefix focus color */
 .input-field .prefix.active {
   color: #00B0C4;
-}
-    
-h3 {
-  font-family: 'Raleway', sans-serif;
-
 }
