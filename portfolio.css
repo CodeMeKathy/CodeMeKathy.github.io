@@ -2,12 +2,40 @@
     float: right;
 
 }
+
+.nav-border {
+
+    /* border: 3px solid #ffffff; */
+
+}
+
+.nav-title {
+  font-family: 'Raleway', sans-serif;
+  border: 3px solid #ffffff;
+  margin: 300px;
+  padding: 0 50px 0 50px;
+}
+
+.div.nav-wrapper.cyan.darken-1 {
+  font-family: 'Raleway', sans-serif;
+  /* height: 100px; */
+}
+
+.brand-logo {
+  font-family: 'Raleway', sans-serif;
+}
     
 .name {
-    color: #31caf0;
+    /* color: #31caf0; */
     font-size: 120px;
-    font-family: 'Mr Dafoe', cursive;
+    /* font-family: 'Mr Dafoe', cursive; */
     margin-bottom: -90px;
+    /* background-color: #00B0C4; */
+}
+
+.line{
+  color: #ffffff;
+  border: 1px solid ##00B0C4;
 }
 
 header {
