@@ -103,8 +103,7 @@ footer {
 body {
   display: flex;  
   background-image: url("https://github.com/Kathy145/Kathy145.github.io/blob/master/images/regal.png?raw=true");
-    display: flex;
-    flex-direction: column;
+  flex-direction: column;
     /* height: 1200px; */
 
 }
