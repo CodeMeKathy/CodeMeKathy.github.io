@@ -63,7 +63,7 @@
   margin-left: 75px; */
   font-family: 'Raleway', sans-serif;
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 30px;
   font-style: italic;
 }
 
@@ -99,7 +99,7 @@ h3 {
 }
 
 .brand {
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 300px;
   margin-top: 300px;
   display: block;
@@ -110,7 +110,7 @@ h3 {
 
 .portfolio {
 
-  font-size: 55px;
+  font-size: 45px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   /* font-style: italic; */
