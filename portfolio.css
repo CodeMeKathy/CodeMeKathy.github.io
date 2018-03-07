@@ -89,8 +89,8 @@ h3 {
   font-family: 'Raleway', sans-serif;
 }
 
-.resume {
-  margin-top: 80px;
+.container {
+ 
 }
 
 .portfolio {
@@ -99,7 +99,7 @@ h3 {
 }
 
 .brand {
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 300px;
   margin-top: 300px;
   display: block;
@@ -110,9 +110,10 @@ h3 {
 
 .portfolio {
 
-  font-size: 75px;
+  font-size: 55px;
   text-align: center;
-  font-style: italic;
+  font-family: 'Raleway', sans-serif;
+  /* font-style: italic; */
   margin: 120px 0 10px 0;
 }
 
@@ -123,15 +124,27 @@ h3 {
 
 .contactMe {
 
-    margin-top: 420px;
-    flex-direction: row;
-    justify-content: center;
+margin-top: 420px;
+flex-direction: row;
+justify-content: center;
 }
+
+portfolio
+
+.hr.center.gtkmb {
+
+flex-direction: column;
+justify-content: center;
+font-family: 'Raleway', sans-serif;
+/* margin-right: 0px; */
+margin-bottom: 50px;
+}
+
 
 .flex-container {
 
-        display: flex;
-        justify-content: center;
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -185,12 +198,12 @@ main {
     min-height: 500px;
 }
 
-img {
+/* img {
   height: 475px;
   width: 750px;
   display: block;
   margin: 0 auto;
-}
+} */
 
 .contact-me {
   text-align: center;
@@ -238,4 +251,15 @@ iframe {
 /* icon prefix focus color */
 .input-field .prefix.active {
   color: #00B0C4;
+}
+
+.img.resume {
+
+  margin: -100px;
+  /* padding-right: 10px; */
+}
+
+i {
+
+  height: 200px;;
 }
