@@ -39,3 +39,12 @@ section {
 .tag-line {
   font-size: 50px;
 }
+
+footer {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  bottom: 0;
+}
