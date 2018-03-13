@@ -22,7 +22,8 @@ body {
 }
 
 .brand {
-  font-size: 37px;
+  font-size: 28px;
+  min-height: 100vh;
 }
 
 section {
@@ -37,7 +38,8 @@ section {
 } 
 
 .tag-line {
-  font-size: 50px;
+  font-size: 37px;
+  min-height: 100vh;
 }
 
 footer {
