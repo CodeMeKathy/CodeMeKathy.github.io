@@ -7,8 +7,20 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
+  font-family: 'Raleway', sans-serif;
 }
 
 .nav {
   box-shadow: none !important;
+}
+
+.name {
+  font-size: 67px;
+  margin: 0 auto;
+  border: 5px solid white;
+  padding: 40px
+}
+
+section {
+  min-height: 100vh !important;
 }
