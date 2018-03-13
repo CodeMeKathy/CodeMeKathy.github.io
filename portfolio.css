@@ -1,12 +1,9 @@
-* {
-  box-sizing: border-box !important;
-}
-
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
+  /* min-width: 100vw !important; */
   font-family: 'Raleway', sans-serif;
 }
 
@@ -16,11 +13,29 @@ body {
 
 .name {
   font-size: 67px;
+}
+
+.box-text {
   margin: 0 auto;
   border: 5px solid white;
-  padding: 40px
+  padding: 40px;
+}
+
+.brand {
+  font-size: 37px;
 }
 
 section {
   min-height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.line {
+  border-bottom: 3px solid #ffffff;
+} 
+
+.tag-line {
+  font-size: 50px;
 }
