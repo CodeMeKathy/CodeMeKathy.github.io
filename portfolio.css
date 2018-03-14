@@ -45,7 +45,12 @@ section {
 .icon {
    min-width: 25px;
    min-height: 605px;
- }
+}
+
+.btn {
+
+  color: #fff
+}
 
 footer {
   min-width: 100%;
