@@ -43,26 +43,33 @@
     </nav>
   </header>
   <main class="row white-text">
-    <section class="col s12 m12 valign-wrapper">
-      <div class="box-text name center">Kathy Lambert</div>
-    </section>
-    <div class="line col s10 offset-s1"></div>
-    <section class="col s12 m10 offset-m1" id="about">
-      <div class="valign-wrapper tag-line">
-        <div>
-          <p class="center">Web Designer | Software Developer | Project Manager</p>
+    <div class="row">
+      <section class="col s12 m12 valign-wrapper">
+        <div class="box-text name center">Kathy Lambert</div>
+      </section>
+    </div>
+    <div class="row">
+      <div class="line col s10 offset-s1"></div>
+    </div>
+    <section class="row" id="about">
+      <div class="row">
+        <div class="col s12">
+          <div class="center valign-wrapper tag-line">
+            <p>Web Designer | Software Developer | Project Manager</p>
+          </div>
         </div>
       </div>
-      <div class="valign-center brand">
-        <div class="box-text center">
-          I am intellectually curious individual with an insatiable desire for knowledge. Utilizing my diverse background, experiences,
-          and skills to be a resourceful, organized and forward-thinking web designer and software developer.
+      <div class="row">
+        <div class="col s8 offset-s2">
+          <div class="valign-center box-text center brand">
+            I am intellectually curious individual with an insatiable desire for knowledge. Utilizing my diverse background, experiences,
+            and skills to be a resourceful, organized and forward-thinking web designer and software developer.
+          </div>
         </div>
       </div>
     </section>
-    <section class="col s12 m10 offset-m1 center" id="portfolio">
-
-      <div id="portfolio" class="portfolio col s12 m6">My Work</div>
+    <section class="row" id="portfolio">
+      <div id="portfolio" class="portfolio col s12 m6 center">My Work</div>
       <div class="row">
         <div class="col s12 m6">
           <div class="card cyan darken-1">
@@ -78,71 +85,92 @@
                 <a href="https://biker-bunnies.surge.sh" style="color: #fff">Deployed App</a>
                 <a href="https://github.com/Kathy145/StudyBuddy" style="color: #fff">Source Code</a>
               </div>
-
-              <div class="row">
-                <div class="col s12 m6">
-                  <div class="card medium cyan darken-1">
-                    <div class="card-image">
-                      <img src="https://github.com/Kathy145/familyCookbookManager/raw/master/public/img/Home%20-%20Juilaette%20Family%20Cookbook%20Manager.png?raw=true">
-                      <div class="card-content white-text">
-                        <span class="card-title">Family Cookbook Manager</span>
-                        <p> A ReactJS client side, front-end, JavaScript engineered & designed with Materialize and CSS connecting
-                          to a custom developed back-end api. </p>
-                      </div>
-                      <div class="card-action">
-                        <a href="https://familycookbookmanager.herokuapp.com/" style="color: #fff">Deployed App</a>
-                        <a href="https://github.com/Kathy145/familyCookbookManager/tree/mernlab" style="color: #fff">Source Code</a>
-                        <!-- <a href="https://recipemanagerapi.herokuapp.com/">Deployed API</a>
-                      <a href="https://github.com/Kathy145/familyCookbookManager/tree/mernlab">Source Code</a> -->
-                      </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card cyan darken-1">
+              <div class="card-image">
+                <img src="https://github.com/Kathy145/familyCookbookManager/raw/master/public/img/Home%20-%20Juilaette%20Family%20Cookbook%20Manager.png?raw=true">
+                <div class="card-content white-text">
+                  <span class="card-title">Family Cookbook Manager</span>
+                  <p> A ReactJS client side, front-end, JavaScript engineered & designed with Materialize and CSS connecting
+                    to a custom developed back-end api. </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://familycookbookmanager.herokuapp.com/" style="color: #fff">Deployed App</a>
+                  <a href="https://github.com/Kathy145/familyCookbookManager/tree/mernlab" style="color: #fff">Source Code</a>
+                  <!-- <a href="https://recipemanagerapi.herokuapp.com/">Deployed API</a>
+              <a href="https://github.com/Kathy145/familyCookbookManager/tree/mernlab">Source Code</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </section>
-    <section class="col s12 m10 offset-m1" id="contact">
-      <h4>Get to know me better!</h4>
-      <h2 class="col s10 m10 offset-m1">
-        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjBgdvUrufXAhUQzWMKHQpVB-kQFggpMAA&url=https%3A%2F%2Fbh.linkedin.com%2Fin%2Fkathy-lambert-mba-2422364%2Fde&usg=AOvVaw14Vt1Ej6k4PH-vVux0iTG0">
-          <i class="icon fab fa-linkedin" style="color: #fff"></i>
-        </a>
-        <a href="mailto:tkathleen.lambert@gmail.com">
-          <i class="icon fas fa-at" style="color: #fff"></i>
-        </a>
-        <a href="https://github.com/Kathy145">
-          <i class="icon fab fa-github" style="color: #fff"></i>
-        </a>
-        <a href="Kathy_Lambert_Resume.pdf" target="blank">
-          <i class="icon fas fa-file-alt" style="color: #fff"></i>
-        </a>
-      </h2>
-
-      <h4>Drop me a line and or let me know about a great opportunities!</h4>
+    <section class="row" id="contact">
+      <div class="row social">
+        <div class="col s12">
+          <h4 class="center">Get to know me better!</h4>
+        </div>
+        <div class="col s12">
+          <h2 class="center">
+            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjBgdvUrufXAhUQzWMKHQpVB-kQFggpMAA&url=https%3A%2F%2Fbh.linkedin.com%2Fin%2Fkathy-lambert-mba-2422364%2Fde&usg=AOvVaw14Vt1Ej6k4PH-vVux0iTG0">
+              <i class="icon fab fa-linkedin" style="color: #fff"></i>
+            </a>
+            <a href="mailto:tkathleen.lambert@gmail.com">
+              <i class="icon fas fa-at" style="color: #fff"></i>
+            </a>
+            <a href="https://github.com/Kathy145">
+              <i class="icon fab fa-github" style="color: #fff"></i>
+            </a>
+            <a href="Kathy_Lambert_Resume.pdf" target="blank">
+              <i class="icon fas fa-file-alt" style="color: #fff"></i>
+            </a>
+          </h2>
+        </div>
+      </div>
 
       <div class="row">
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s6">
-              <i class="material-icons prefix">perm_contact_calendar</i>
-              <input id="name" name="name" type="text" class="validate">
-              <label for="name">Full Name</label>
-            </div>
-            <div class="input-field col s6">
-              <i class="material-icons prefix">email</i>
-              <input id="email" name="_replyto" type="email" class="validate">
-              <label for="email">Email</label>
-            </div>
+        <div class="form col s10 offset-s1">
+          <div class="col s12">
+            <h4 class="center form-header">Drop me a line and or let me know about a great opportunities!</h4>
           </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <i class="material-icons prefix">message</i>
-              <textarea id="message" name="message" class="materialize-textarea"></textarea>
-              <label for="message">Message</label>
+          <form class="col s12" action="https://formspree.io/tkathleen.lambert@gmail.com" method="POST">
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">perm_contact_calendar</i>
+                <input id="name" name="name" type="text" class="validate">
+                <label for="name">Full Name</label>
+              </div>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">email</i>
+                <input id="email" name="_replyto" type="text" class="validate">
+                <label for="email">Email</label>
+              </div>
             </div>
-          </div>
-        </form>
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">message</i>
+                <textarea id="message" name="message" class="materialize-textarea"></textarea>
+                <label for="message">Message</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 center">
+                <button class="btn waves-effect waves-light cyan darken-1 white-text form-submit" type="submit">
+                  <i class="material-icons">send</i> Send</button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </section>
   </main>
   <footer class="white-text">
     <div>
-      <p>© 2018 Copyright</p>
+      <p>&copy; 2018 Copyright</p>
     </div>
     <div>
       <p>

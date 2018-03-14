@@ -7,6 +7,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+#about, #portfolio, #contact {
+  min-height: 100vh;
+}
+
 .nav {
   box-shadow: none !important;
 }
@@ -23,7 +27,6 @@ body {
 
 .brand {
   font-size: 28px;
-  min-height: 100vh;
 }
 
 section {
@@ -39,13 +42,7 @@ section {
 
 .tag-line {
   font-size: 37px;
-  min-height: 100vh;
 }
-
-.icon {
-   min-width: 25px;
-   min-height: 605px;
- }
 
 footer {
   min-width: 100%;
@@ -54,4 +51,71 @@ footer {
   align-items: flex-end;
   position: relative;
   bottom: 0;
+}
+
+.form {
+  border: 5px solid white;
+  padding: 45px !important;
+}
+
+.form-header {
+  padding-bottom: 40px !important;
+}
+
+.form-submit {
+  font-size: 24px;
+}
+
+.social {
+  padding-bottom: 45px !important;
+}
+
+/* Materialize Form Styling */
+/* label color */
+.input-field label {
+  color: #fff;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #231651 !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #231651 !important;
+  /* box-shadow: 0 1px 0 0 #231651; */
+}
+/* label underline color */
+.input-field input[type=text] {
+  border-bottom: 1px solid #fff !important;
+  /* box-shadow: 0 1px 0 0 #000; */
+}
+/* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #231651 !important;
+}
+
+/* Textarea form styling */
+/* label focus color */
+.input-field textarea:focus + label {
+  color: #231651 !important;
+}
+/* label underline focus color */
+.input-field textarea:focus {
+  border-bottom: 1px solid #231651 !important;
+  /* box-shadow: 0 1px 0 0 #231651; */
+}
+/* label underline color */
+.input-field textarea {
+  border-bottom: 1px solid #fff !important;
+  /* box-shadow: 0 1px 0 0 #000; */
 }
