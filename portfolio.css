@@ -42,6 +42,11 @@ section {
   min-height: 100vh;
 }
 
+.icon {
+   min-width: 25px;
+   min-height: 605px;
+ }
+
 footer {
   min-width: 100%;
   display: flex;
