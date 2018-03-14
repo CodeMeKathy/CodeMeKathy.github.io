@@ -119,3 +119,14 @@ footer {
   border-bottom: 1px solid #fff !important;
   /* box-shadow: 0 1px 0 0 #000; */
 }
+
+.card-action > a {
+  color: white !important;
+}
+.card-action > a:hover {
+  color: #231651 !important;
+}
+
+.card-title {
+color: #231651 !important;
+}
