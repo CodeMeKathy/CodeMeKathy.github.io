@@ -1,0 +1,60 @@
+{
+  "jobs":
+    [
+      {
+        "company": "General Assembly",
+        "position": "Full-Stack Web Development Immersive Student",
+        "startDate": "Nov 2017",
+        "endDate": "Feb 2018",
+        "location": "Washington, DC",
+        "duties": [
+          "Developed a portfolio of individual and collaborative projects including:",
+          "Family Cookbook Manager | http://bit.ly/FamCkBk - Created with JavaScript, NodeJS, & Materialize. - Built a back end web application developed with views rendering to the front-end client side.",
+          "StudyBuddy | http://biker-bunnies.surge.sh/ - Designed with JavaScript, HTML & CSS. - Engineered a flash-card web application with arrow key event listeners."
+        ]
+      },
+      {
+        "company": "CSCI",
+        "position": "Operations Analyst II",
+        "startDate": "Jan 2017",
+        "endDate": "Sept 2017",
+        "location": "Springfield, VA",
+        "duties": [
+          "Aligned with the PM to ensure successful program execution while managing program risks with mitigation plans in an Agile Scrum environment.",
+          ""
+        ]
+      },
+      {
+        "company": "Get It Done Solutions (GID) Solutions",
+        "position": "Lead Program Analyst",
+        "startDate": "Jul 2016",
+        "endDate": "Dec 2016",
+        "location": "Stafford, VA",
+        "duties": [
+          "Oversaw analytical, administrative and technical acquisition support while ensuring that contractual, cost and Integrated Master Schedule (IMS) objectives were met.",
+          "Cultivated and supervised junior program analysts."
+        ]
+      },
+      {
+        "company": "LTC Solutions",
+        "position": "Management Analyst II",
+        "startDate": "Jun 2012",
+        "endDate": "Mar 2016",
+        "location": "Stafford, VA",
+        "duties": [
+          "Orchestrated with the PM, to execute the management of proposals and contracts, in the hundreds while overseeing three (3) team members.",
+          "Evaluated and reviewed topic submission for development to ensure applicability with the SBIR; resulting in the successful execution of annual $18M fiscal year budget."
+        ]
+      },
+      {
+        "company": "Saint Louis University",
+        "position": "Program Coordinator",
+        "startDate": "Sept 2008",
+        "endDate": "Dec 2011",
+        "location": "St. Louis, MO",
+        "duties": [
+          "Improved the 1818 ACC Program website design while managing the publication and composition as the webmaster and content creator."
+        ]
+      }
+    ]
+}
