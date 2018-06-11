@@ -17,6 +17,7 @@ body {
 
 .name {
   font-size: 67px;
+
 }
 
 .box-text {
@@ -25,14 +26,15 @@ body {
   padding: 40px;
 }
 
-.profile {
-  border: 5px solid white;
-  padding: 10px;
-  padding-top: 5px;
-  text-align: left;
-  height: 200px;
-  width: 200px;
+
+.section-title  {
+  font: bold;
+  /* text-decoration: underline; */
+  padding-bottom: 5px;
+  border-bottom: 2px solid currentColor;
+  display: inline-block;
 }
+
 
 .brand {
   font-size: 28px;
@@ -52,10 +54,30 @@ section {
 .tag-line {
   font-size: 37px;
 }
+.tag-line.contact {
+  font-size: 20px;
+  padding-top: 0;
+}
 
 .profile {
   font-size: 12px;
+  border: 5px solid white;
+  padding: 10px;
+  padding-top: 5px;
+  text-align: left;
+  height: 220px;
+  width: 210px;
 }
+
+.tag-line.contact a:link {
+  text-decoration: underline;
+  color: white;
+}
+
+.tag-line.contact > a:hover {
+  color: #231651 !important;
+}
+
 
 footer {
   min-width: 100%;
@@ -136,6 +158,7 @@ footer {
 .card-action > a {
   color: white !important;
 }
+
 .card-action > a:hover {
   color: #231651 !important;
 }
