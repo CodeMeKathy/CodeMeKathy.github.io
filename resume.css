@@ -57,6 +57,7 @@ section {
   padding-bottom: 5px;
   border-bottom: 2px solid currentColor;
   display: inline-block;
+  font-size: 20px;
 }
 
 .brand {
