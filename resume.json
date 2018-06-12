@@ -2,6 +2,17 @@
   "jobs":
     [
       {
+        "company": "3D Maker",
+        "position": "Software Engineer",
+        "startDate": "Apr 2018",
+        "endDate": "Present",
+        "location": "Valencia, CA",
+        "duties": [
+          "Gibraltar | http://gibraltarsalesgroup.com - WordPress site redesigned and engineered with HTML and CSS.",
+          "Collaborates with UI and UX designers to assist with the development, maintenance, and enhancement of complex and diverse consumer-facing websites."
+        ]
+      },
+      {
         "company": "General Assembly",
         "position": "Full-Stack Web Development Immersive Student",
         "startDate": "Nov 2017",
