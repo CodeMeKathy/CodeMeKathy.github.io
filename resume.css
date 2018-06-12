@@ -20,10 +20,28 @@ body {
 
 }
 
+section {
+  min-height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.outside-box-text{
+  margin: 0 auto;
+  border: 20px solid white;
+  padding: 60px;
+  min-width: 80vh !important;
+}
+
 .box-text {
   margin: 0 auto;
   border: 5px solid white;
-  padding: 40px;
+  padding: 10px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 0px;
 }
 
 
@@ -35,28 +53,25 @@ body {
   display: inline-block;
 }
 
-
 .brand {
   font-size: 28px;
 }
 
-section {
-  min-height: 100vh !important;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
 
 .line {
   border-bottom: 3px solid #ffffff;
 } 
 
 .tag-line {
-  font-size: 37px;
+  font-size: 27px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
-.tag-line.contact {
+
+.tag-line-contact {
   font-size: 20px;
-  padding-top: 0;
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 .profile {
@@ -67,14 +82,43 @@ section {
   text-align: left;
   height: 220px;
   width: 210px;
+  /* float: left; */
 }
 
-.tag-line.contact a:link {
+.tag-line-contact > a:link {
   text-decoration: underline;
   color: white;
 }
 
-.tag-line.contact > a:hover {
+.tag-line-contact > a:visited {
+  text-decoration: underline;
+  color: white;
+}
+
+
+.tag-line-contact > a:hover {
+  color: #231651 !important;
+}
+
+.portfolio {
+  /* flex-flow: column;
+  flex-direction: column; */
+  float: right;
+  margin-right: 0px;
+  
+}
+
+.portfolio a:link {
+  text-decoration: underline !important;
+  color: white !important;
+}
+
+.portfolio a:visited {
+  text-decoration: underline !important;
+  color: white !important;
+}
+
+.portfolio a:hover {
   color: #231651 !important;
 }
 
@@ -86,6 +130,8 @@ footer {
   align-items: flex-end;
   position: relative;
   bottom: 0;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
 }
 
 .form {
