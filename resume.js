@@ -69,8 +69,9 @@ var obj = {"resumeData": [
   }
 
 var divId = document.getElementById("experience")
-for (var i=0; i<obj.resumeData.length; i++)
-for (var keys in obj.resumeData[i]){
-  console.log(keys +"-->"+obj.data[i][keys])
-  divId.innerHTML = divId.innerHTML + '<br/>' + keys + ': ' +obj.resumeData[i][keys]
+for (var i=0; i<obj.resumeData.length; i++) {
+  for (var keys in obj.resumeData[i]){
+    // console.log(keys +"-->"+obj.resumeData[i][keys])
+    divId.innerHTML = divId.innerHTML + '<br/>' +obj.resumeData[i][keys]
+  }
 }
