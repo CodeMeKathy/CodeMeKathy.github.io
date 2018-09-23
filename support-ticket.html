@@ -22,14 +22,13 @@
 
         <div class='description'>
 
-          <!-- [ ] Move down page === margin-top: -# -->
           <p id='description'>
             Please fill out and submit the form below to request the services of Kathy Lambert,  Software Developer & Project Manager Extraordinaire. 
           <p/>
         </div>
         <br></br>   
 
-        <form action='' method='post' id='survey-form'>
+        <form action='formspree.io/tkathleen.lambert@gmail.com' method='post' id='survey-form'>
 
           <div class='row' > 
             <div class='rowLeft'>
@@ -56,7 +55,7 @@
               <label for='number' class='labels' id="number-label" >Phone Number: </label>
             </div>
             <div class='rowRight'>
-              <input type='tel' id='number' name='number' placeholder='504.988.6420' required pattern="[0-9]{3}[ -][0-9]{3}[ -][0-9]{4}" min="1" max="9">
+              <input type='tel' id='number' name='phone-number' placeholder='504.988.6420' required pattern="[0-9]{3}[ .][0-9]{3}[ .][0-9]{4}" min="1" max="9">
               <span class="validity"></span>
             </div>
           </div>
@@ -67,7 +66,7 @@
             </div>
             
             <div class='rowRight'>
-              <input type='text' id='req-task' name='req-task' placeholder="Create a new website." />
+              <input type='text' id='req-task' name='requested-task' placeholder="Create a new website." />
             </div>
           </div>
 
@@ -77,7 +76,7 @@
             </div>
             
             <div class='rowRight'>
-              <select id='dropdown' >
+              <select id='dropdown' name="requested-task-category" >
                 <option value='administrative'>Administrative</option>
                 <option value='technical'>Technical</option>
                 <option value='household'>Household</option>
@@ -103,19 +102,19 @@
             </div>
             
             <div class='rowRight'>
-              <input type='radio' id='radio-priority-level-1' name='task-priority' style="width: 10px" value="1">
+              <input type='radio' id='radio-priority-level-1' name='high-priority' style="width: 10px" value="1">
 
               <label for='priority-1' id="label-priority-level"> Priority Level 1 </label>
 
               <br>
               
-              <input type='radio' id='radio-priority-level'  name='task-priority' style="width: 10px" value="2">
+              <input type='radio' id='radio-priority-level'  name='medium-priority' style="width: 10px" value="2">
 
               <label for='priority-2' id="label-priority-level"> Priority Level 2 </label>
 
               <br>
 
-              <input type='radio' id='radio-priority-level' name='task-priority' style="width: 10px" checked/ value="3">
+              <input type='radio' id='radio-priority-level' name='low-priority' style="width: 10px" checked/ value="3">
 
               <label for='priority-3'  id="label-priority-level" checked > Priority Level 3 </label>
             </div>
@@ -154,7 +153,7 @@
             </div>
             
             <div class='rowRight'>
-              <textarea type='text' id='add-comments' name='add-comments' rows='3' cols='33' maxlength='200' wrap='hard' ></textarea>
+              <textarea type='text' id='add-comments' name='additional-comments' rows='3' cols='33' maxlength='200' wrap='hard' ></textarea>
             </div>
           </div>
 
@@ -164,14 +163,17 @@
               </div>
 
               <div class='rowRight'>
-                  <input type='date' id='req-deadline' name='req-deadline' required pattern="required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" />
+                  <input type='date' id='req-deadline' name='requested-deadline' required pattern="required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" />
                   <span class="validity"></span>
                 </div>
           </div>
 
           <!-- [ ] Format Submit BTN: 1) increase margin-top: 25px; -->
             <button type="submit" id="submit">Submit Support Ticket</button>
-
+            <input type="hidden" name="_subject" value="New KathyDo Request!" />
+            <!-- <input type="hidden" name="_cc" value="another@email.com" /> -->
+            <input type="hidden" name="_next" value="https://Kathy145.github.io" />
+            <!-- <input type="text" name="_gotcha" style="display:none" /> -->
 
         </form>
     
