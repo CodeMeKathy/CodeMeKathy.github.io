@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="./support-ticket.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
+  
+    <h1 id='title'>👩🏽‍💻 Request Support Ticket 👩🏽‍💻</h1>
+  
+   
+    <div id='survey-container' >
+
+        <div class='description'>
+
+          <!-- [ ] Move down page === margin-top: -# -->
+          <p id='description'>
+            Please fill out and submit the form below to request the services of Kathy Lambert,  Software Developer & Project Manager Extraordinaire. 
+          <p/>
+        </div>
+        <br></br>   
+
+        <form action='' method='post' id='survey-form'>
+
+          <div class='row' > 
+            <div class='rowLeft'>
+              <label for='name' class='labels' id="name-label" > *Name: </label>
+            </div>
+            <div class='rowRight'>
+              <input type='text' id='name' name='name' placeholder='Kandace Wilkins'/ required>
+            </div>
+          </div>
+
+          <div class='row' > 
+            <div class='rowLeft'>
+              <label for='email' id="email-label"> *Email: </label>
+            </div>
+            
+            <div class='rowRight'>
+              <input type='email' id='email' name='email' placeholder='Kandace.Wilkins@gmail.com' required/>
+            </div>
+
+          </div>
+
+          <div class='row' > 
+            <div class='rowLeft'>
+              <label for='number' class='labels' id="number-label" >Phone Number: </label>
+            </div>
+            <div class='rowRight'>
+              <input type='tel' id='number' name='number' placeholder='504.988.6420' required pattern="[0-9]{3}[ -][0-9]{3}[ -][0-9]{4}" min="1" max="9">
+              <span class="validity"></span>
+            </div>
+          </div>
+
+          <div class='row' > 
+            <div class='rowLeft'>
+              <label for='req-task'> Requested Task: </label>
+            </div>
+            
+            <div class='rowRight'>
+              <input type='text' id='req-task' name='req-task' placeholder="Create a new website." />
+            </div>
+          </div>
+
+          <div class='row' > 
+            <div class='rowLeft'>
+              <label for='req-task'>Requested Task Category: </label>
+            </div>
+            
+            <div class='rowRight'>
+              <select id='dropdown' >
+                <option value='administrative'>Administrative</option>
+                <option value='technical'>Technical</option>
+                <option value='household'>Household</option>
+              </select>  
+
+            </div>
+
+          </div>
+
+          <div class='row' > 
+            <div class='rowLeft'>
+              <label for='req-task'> Task Description: </label>
+            </div>
+            
+            <div class='rowRight'>
+              <textarea type='text' id='task-description' name='task-description' rows='3' cols='33' maxlength='200' wrap='hard' placeholder="A single page website with a contact form." ></textarea>
+            </div>
+          </div>
+
+          <div class='row' > 
+            <div class='rowLeft'>
+              <label for='task-priority-level'> Task Priority Level: </label>
+            </div>
+            
+            <div class='rowRight'>
+              <input type='radio' id='radio-priority-level-1' name='task-priority' style="width: 10px" value="1">
+
+              <label for='priority-1' id="label-priority-level"> Priority Level 1 </label>
+
+              <br>
+              
+              <input type='radio' id='radio-priority-level'  name='task-priority' style="width: 10px" value="2">
+
+              <label for='priority-2' id="label-priority-level"> Priority Level 2 </label>
+
+              <br>
+
+              <input type='radio' id='radio-priority-level' name='task-priority' style="width: 10px" checked/ value="3">
+
+              <label for='priority-3'  id="label-priority-level" checked > Priority Level 3 </label>
+            </div>
+
+          </div>
+
+          <div class='row checkbox-row' > 
+            <div class='rowLeft'>
+              <label for='human-confirmation'> Confirm Humanity: </label>
+            </div>
+            
+            <div class='rowRight'>              
+              <input type='checkbox' id='human-confirmation' name='human-confirmation' style="width: 10px" value="1"> 
+              
+              <label for="human-confirmation">Robot</label> 
+           
+              <br>
+
+              <input type='checkbox' id='human-confirmation' name='human-confirmation' style="width: 10px" value="2" required>
+
+              <label for="human-confirmation">Human</label>
+              
+              <br>
+            
+              <input type='checkbox' id='human-confirmation' name='human-confirmation' style="width: 10px" value="3">
+
+              <label for="human-confirmation">Robot</label>
+
+
+            </div>  
+          </div>
+
+          <div class='row' > 
+            <div class='rowLeft'>
+              <label for='add-comments'> Additional Request Details: </label>
+            </div>
+            
+            <div class='rowRight'>
+              <textarea type='text' id='add-comments' name='add-comments' rows='3' cols='33' maxlength='200' wrap='hard' ></textarea>
+            </div>
+          </div>
+
+          <div class='row' > 
+              <div class='rowLeft'>
+                <label for='req-deadline'> Requested Deadline: </label>
+              </div>
+
+              <div class='rowRight'>
+                  <input type='date' id='req-deadline' name='req-deadline' required pattern="required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" />
+                  <span class="validity"></span>
+                </div>
+          </div>
+
+          <!-- [ ] Format Submit BTN: 1) increase margin-top: 25px; -->
+            <button type="submit" id="submit">Submit Support Ticket</button>
+
+
+        </form>
+    
+    
+    </div>
+
+
+  
+
+  <script  src="js/index.js">
+    
+      // Email Validation 
+
+    var email = document.getElementById('email')
+
+    email.addEventListener('input', function(event) {
+      if (email.validity.typeMismatch) {
+        email.setCustomValidity('Please provide a vaild email address.')
+      } else {
+        email.setCustomValidity('')
+      }
+    })
+
+  </script>
+    
+
+</body>
+
+</html>

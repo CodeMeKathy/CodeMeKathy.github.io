@@ -1,0 +1,132 @@
+
+/* Pallet: */
+/* font-family: 'Lobster', cursive;
+font-family: 'Raleway', Helvetica, sans-serif; */
+
+body {
+  background-color: #9EDBD2;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+
+#title {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+  /* color: antiquewhite; */
+}
+
+
+#survey-container {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite !important;
+  margin-left: auto;
+  margin-right: auto;
+  height: 850px;
+  width: 900px;
+  color: rgb(145, 139, 139);
+  border-radius: 3%;
+  /* justify-content: center */
+
+}
+
+.description {
+  /* display: flex; */
+  /* display: inline-block;
+  text-align: left;
+  flex-direction:'column'; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: -15px;
+  width: 600px;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  /* flex-direction: column; */
+  /* flex-flow: column; */
+  /* order: 2;
+  -webkit-order:2; */
+  
+}
+
+input, select#dropdown {
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+/* [ ] Fix placeholder text color */
+::placeholder {
+  color: rgb(192, 179, 179); 
+  /* color: rgb(218, 45, 45) !important; */
+}
+
+.row {
+  display: flex;
+}
+
+.labels {
+  /* display: inline-block; */
+  padding-right: 50x;
+}
+
+.rowLeft {
+  /* display: inline-block; */
+  /* flex: 50%; */
+  float: left;
+  width: 40%;
+  text-align: right !important;
+  padding: 10px !important;
+
+}
+
+.rowRight{
+  /* display: inline-block; */
+  /* flex: 50%; */
+  float: right;
+  width: 60%;
+  padding: 10px !important;
+}
+
+input {
+  font-size: 14px;
+  width: 200px;
+}
+
+textarea {
+  width: 198px;
+}
+
+#task-description {
+  height: 50px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-size: 14px;
+}
+
+#dropdown {
+  width: 205px;
+  font-size: 14px;
+}
+
+
+input #radio-priority-level-1 {
+  margin-left: 0%;
+}
+
+#submit {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  color: #9EDBD2;
+}
