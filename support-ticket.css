@@ -4,7 +4,7 @@
 font-family: 'Raleway', Helvetica, sans-serif; */
 
 body {
-  background-color: #9EDBD2;
+  background-color: #00A2B9;
   font-family: 'Raleway', Helvetica, sans-serif;
 }
 
@@ -21,11 +21,11 @@ body {
 #survey-container {
   display: flex;
   flex-direction: column;
-  background-color: antiquewhite !important;
+  background-color: white;
   margin-left: auto;
   margin-right: auto;
-  height: 850px;
-  width: 900px;
+  height: 950px;
+  width: 725px;
   color: rgb(145, 139, 139);
   border-radius: 3%;
   /* justify-content: center */
@@ -54,8 +54,7 @@ body {
   margin-right: auto;
   /* flex-direction: column; */
   /* flex-flow: column; */
-  /* order: 2;
-  -webkit-order:2; */
+  margin-bottom: 20px; 
   
 }
 
@@ -66,16 +65,19 @@ input, select#dropdown {
 /* [ ] Fix placeholder text color */
 ::placeholder {
   color: rgb(192, 179, 179); 
+  font-size: 12px;
   /* color: rgb(218, 45, 45) !important; */
 }
 
 .row {
   display: flex;
+  width: 100%;
 }
 
 .labels {
   /* display: inline-block; */
   padding-right: 50x;
+
 }
 
 .rowLeft {
@@ -85,6 +87,7 @@ input, select#dropdown {
   width: 40%;
   text-align: right !important;
   padding: 10px !important;
+
 
 }
 
@@ -96,8 +99,13 @@ input, select#dropdown {
   padding: 10px !important;
 }
 
+label {
+  width: 300px;
+  font-size: 12px !important;
+}
+
 input {
-  font-size: 14px;
+  font-size: 12px;
   width: 200px;
 }
 
@@ -129,4 +137,5 @@ input #radio-priority-level-1 {
 
 button {
   color: #9EDBD2;
+  margin: 20px;
 }
