@@ -1,14 +1,17 @@
 
-/* Kathy's Go to Design Pallet: */
+/* StyleSheet: */
 /* font-family: 'Lobster', cursive; */
 /* font-family: 'Raleway', Helvetica, sans-serif; */
-/* background-color: rgb(0,162,185); */
+/* materialize: */
+  /* background-color: rgb(0,162,185); */
+/* background-color: #00B8CB; */
 /* color: rgb(145, 139, 139); */
 /* background-color: white; */
 
 
 body {
-  background-color: rgb(0,162,185);
+  /* background-color: rgb(0,162,185); */
+  background-color: var(--main-bkgd-color);
   font-family: 'Raleway', Helvetica, sans-serif;
 }
 

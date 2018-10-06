@@ -1,3 +1,7 @@
+:root {
+  --main-bkgd-color:  #00B8CB;
+}
+
 body {
   display: flex;
   flex-direction: column;
