@@ -158,8 +158,9 @@ color: #231651 !important;
   }
   
   .tag-line {
-    font-size: 12px;
+    font-size: 14px;
     color: red;
+    padding: 0px;
   
   }
 
@@ -170,6 +171,30 @@ color: #231651 !important;
     margin: 0px -20px 0px -20px;
   }
 
+
+  .projects {
+
+  }
+
+}
+
+@media (max-width: 640px) {
+  .tag-line {
+    font-size: 13.5px;
+    color: red;
+    padding: 0px;
+  
+  }
+
+}
+
+@media (max-width: 800px) {
+  .tag-line {
+    font-size: 14px;
+    color: red;
+    padding: 0px;
+  
+  }
 }
 
 
