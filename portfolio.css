@@ -21,6 +21,11 @@ body {
 
 .name {
   font-size: 67px;
+
+}
+
+h1.name {
+  font-size: 67px;
 }
 
 .box-text {
