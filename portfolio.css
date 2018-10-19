@@ -147,18 +147,18 @@ color: #231651 !important;
 
 
 /* Media Queries */
-
-@media (max-width: 600px) {
+/* 
+@media (max-width: 400px) {
 
   .name {
-    font-size: 33px;
+    font-size: 43px;
     color: red;
     margin-left: auto;
     margin-right: auto;
   }
   
   .tag-line {
-    font-size: 14px;
+    font-size: 16px;
     color: red;
     padding: 0px;
   
@@ -172,29 +172,90 @@ color: #231651 !important;
   }
 
 
-  .projects {
+
+
+} */
+
+/* @media (max-width: 700px) {
+  .name {
+
+    color: black;
 
   }
-
-}
-
-@media (max-width: 640px) {
+ 
+  
   .tag-line {
     font-size: 13.5px;
-    color: red;
+    color: black;
     padding: 0px;
   
   }
 
-}
+}; */
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
+  .name {
+
+    color: blueviolet;
+
+  }
+     
   .tag-line {
-    font-size: 14px;
-    color: red;
+    font-size: 37px;
+    color: blueviolet;
     padding: 0px;
   
   }
+
+  .brand {
+    font-size: 18px;
+    color: blueviolet;
+    padding: 10px 5px 10px 5px;
+    margin: 0px -20px 0px -20px;
+  }
+  
+  #portfolio {
+    display: flex !important;
+  }
+
+  /* #projects {
+    display: flex !important;
+    align-items: flex-start;
+    justify-content: center; 
+    flex-direction: column !important;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+  /* }  */
+
+
+  div.col.s4 {
+    display: flex !important;
+    align-items: center;
+    flex-direction: column !important;
+
+  }
+
+  .form h4 {
+    font-size: 18px;
+
+  }
+
+  .form-inputs{
+    display: grid;
+    grid-template-columns: 1;
+
+  }
+
+
+
+  label {
+
+    font-size: 10px;
+
+    
+  }
+
 }
 
 
