@@ -1,6 +1,8 @@
-:root {
-  --main-bkgd-color:  #00B8CB;
-}
+/* :root { */
+  /* --main-bkgd-color: #00B8CB; */
+  /* #00B0C4 : cyan darken-1 */
+  /* #00BDCE */
+/* } */
 
 body {
   display: flex;
@@ -9,6 +11,11 @@ body {
   min-height: 100vh;
   /* min-width: 100vw !important; */
   font-family: 'Raleway', sans-serif;
+  background-color: #00B8CB;
+}
+
+.nav-extended {
+  background-color: #00B8CB;
 }
 
 #about, #portfolio, #contact {
