@@ -99,11 +99,21 @@ div.row.myWork{
 }
 
 #p5Title { 
-  padding-left: 170px !important;
+  padding-left: 145px !important;
+  margin-bottom: -15px !important;
+}
+
+#p5Pic {
+  height: 650px !important;
 }
 
 #p6Title { 
-  padding-left: 150px !important;
+  padding-left: 110px !important;
+  margin-bottom: 120px !important;
+}
+
+#p6Pic {
+  height: 370px !important;
 }
 
 
