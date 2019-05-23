@@ -36,13 +36,6 @@ body {
   padding: 40px;
 }
 
-
-.card-title .project3 {
-  color: white !important;
-  
-}
-
-
 .brand {
   font-size: 28px;
 }
@@ -62,17 +55,79 @@ section {
   font-size: 37px;
 }
 
-footer {
-  min-width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
-  bottom: 0;
-  /* padding: 10px; */
-  padding-right: 15px !important;
-  padding-left: 15px !important;
+
+/* My Work Styling */
+
+div.row.myWork{
+  justify-content: center;
 }
+
+
+.card-title {
+  color: white !important;
+  padding-left: 220px !important;
+  font-weight: 700px !important;
+  font-size: 2rem !important;
+}
+
+/* span.card-title {
+  color: white !important;
+  color: #231651 !important;
+  padding-left: 235px;
+} */
+
+.card-action {
+  border-top: none !important;
+}
+
+.card-action > a {
+  color: white !important;
+  text-align: center !important;
+  margin-left: 24px;
+}
+.card-action > a:hover {
+  color: #231651 !important;
+}
+
+
+#p1Title { 
+  color: #231651 !important;
+}
+
+#p2Title { 
+  padding-left: 120px !important;
+}
+
+#p5Title { 
+  padding-left: 170px !important;
+}
+
+#p6Title { 
+  padding-left: 150px !important;
+}
+
+
+/* 
+#p2Text {
+  height: 100px !important;
+}
+
+#p2Links {
+  margin-top: 100px !important;
+} */
+
+
+
+.social {
+  padding-bottom: 45px !important;
+}
+
+
+
+
+
+
+/* Materialize Form Styling */
 
 .form {
   border: 5px solid white;
@@ -87,11 +142,6 @@ footer {
   font-size: 24px;
 }
 
-.social {
-  padding-bottom: 45px !important;
-}
-
-/* Materialize Form Styling */
 /* label color */
 .input-field label {
   color: #fff;
@@ -141,13 +191,90 @@ footer {
   /* box-shadow: 0 1px 0 0 #000; */
 }
 
-.card-action > a {
-  color: white !important;
-}
-.card-action > a:hover {
-  color: #231651 !important;
+
+footer {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  bottom: 0;
+  /* padding: 10px; */
+  padding-right: 15px !important;
+  padding-left: 15px !important;
 }
 
-.card-title {
-color: #231651 !important;
+@media (max-width: 576px) { 
+  .tag-line{
+    font-size: 1.40rem;
+  }
+
+  .box-text.name{
+    font-size: 2.5rem;
+  }
+
+ .box-text{
+   font-size: 1.5rem;
+  }
+
+  .card-title {
+    font-weight: 700px !important;
+    font-size: 1.5rem !important;
+  }
+
+  #p1Title { 
+    color: #231651 !important;
+    padding-left: 120px !important;
+    margin-bottom: 15px !important;
+  }
+  
+  #p2Title { 
+    padding-left: 50px !important;
+    color: #231651 !important;
+    margin-bottom: -15px !important;
+  }
+  
+  #p5Title { 
+    padding-left: 82px !important;
+    margin-bottom: 85px !important;
+  }
+
+  #p4Title { 
+    padding-left: 120px !important;
+    color: #231651 !important;
+    margin-bottom: -15px !important;
+  }
+
+  #p6Pic {
+    height: 370px !important;
+  }
+  
+  #p6Title { 
+    padding-left: 50px !important;
+    margin-bottom: 145px !important;
+  }
+
+  .card-action > a {
+    /* color: white !important;
+    text-align: center !important; */
+    margin-left: 14px;
+  }
+
+  .icon {
+    height: 20px !important;
+    width: 80px;
+    padding-top: 20px;
+  }
+
+  #iconDiv{
+    margin-top: 10px !important;
+  }
+
+  .form-header {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    font-size: 0.7rem;
+  }
 }
