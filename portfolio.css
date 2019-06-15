@@ -1,73 +1,77 @@
 /* :root { */
-  /* --main-bkgd-color: #00B8CB; */
-  /* #00B0C4 : cyan darken-1 */
-  /* #00BDCE */
+/* --main-bkgd-color: #00B8CB; */
+/* #00B0C4 : cyan darken-1 */
+/* #00BDCE */
 /* } */
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
-  /* min-width: 100vw !important; */
-  font-family: 'Raleway', sans-serif;
-  background-color: #00B8CB !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+	/* min-width: 100vw !important; */
+	font-family: 'Raleway', sans-serif;
+	background-color: #00b8cb !important;
 }
 
 .nav-extended {
-  background-color: #00B8CB !important;
+	background-color: #00b8cb !important;
 }
 
-#about, #portfolio, #contact {
-  min-height: 100vh;
+#about,
+#portfolio,
+#contact {
+	min-height: 100vh;
 }
 
 .nav {
-  box-shadow: none !important;
+	box-shadow: none !important;
 }
 
 .name {
-  font-size: 67px;
+	font-size: 67px;
 }
 
 .box-text {
-  margin: 0 auto;
-  border: 5px solid white;
-  padding: 40px;
+	margin: 0 auto;
+	border: 5px solid white;
+	padding: 40px;
 }
 
 .brand {
-  font-size: 28px;
+	font-size: 28px;
 }
 
 section {
-  min-height: 100vh !important;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+	min-height: 100vh !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 .line {
-  border-bottom: 3px solid #ffffff;
-} 
-
-.tag-line {
-  font-size: 37px;
+	border-bottom: 3px solid #ffffff;
 }
 
+.tag-line {
+	font-size: 37px;
+}
 
 /* My Work Styling */
 
-div.row.myWork{
-  justify-content: center;
+#site-image {
+	display: none;
 }
 
+div.row.myWork {
+	justify-content: center;
+}
 
 .card-title {
-  color: white !important;
-  padding-left: 220px !important;
-  font-weight: 700px !important;
-  font-size: 2rem !important;
+	color: white !important;
+	padding-left: 220px !important;
+	font-weight: 700px !important;
+	font-size: 2rem !important;
 }
 
 /* span.card-title {
@@ -77,45 +81,43 @@ div.row.myWork{
 } */
 
 .card-action {
-  border-top: none !important;
+	border-top: none !important;
 }
 
 .card-action > a {
-  color: white !important;
-  text-align: center !important;
-  margin-left: 24px;
+	color: white !important;
+	text-align: center !important;
+	margin-left: 24px;
 }
 .card-action > a:hover {
-  color: #231651 !important;
+	color: #231651 !important;
 }
 
-
-#p1Title { 
-  color: #231651 !important;
+#p1Title {
+	color: #231651 !important;
 }
 
-#p2Title { 
-  padding-left: 120px !important;
+#p2Title {
+	padding-left: 120px !important;
 }
 
-#p5Title { 
-  padding-left: 145px !important;
-  margin-bottom: -15px !important;
+#p5Title {
+	padding-left: 145px !important;
+	margin-bottom: -15px !important;
 }
 
 #p5Pic {
-  height: 650px !important;
+	height: 650px !important;
 }
 
-#p6Title { 
-  padding-left: 110px !important;
-  margin-bottom: 120px !important;
+#p6Title {
+	padding-left: 110px !important;
+	margin-bottom: 120px !important;
 }
 
 #p6Pic {
-  height: 370px !important;
+	height: 370px !important;
 }
-
 
 /* 
 #p2Text {
@@ -126,165 +128,157 @@ div.row.myWork{
   margin-top: 100px !important;
 } */
 
-
-
 .social {
-  padding-bottom: 45px !important;
+	padding-bottom: 45px !important;
 }
-
-
-
-
-
 
 /* Materialize Form Styling */
 
 .form {
-  border: 5px solid white;
-  padding: 45px !important;
+	border: 5px solid white;
+	padding: 45px !important;
 }
 
 .form-header {
-  padding-bottom: 40px !important;
+	padding-bottom: 40px !important;
 }
 
 .form-submit {
-  font-size: 24px;
+	font-size: 24px;
 }
 
 /* label color */
 .input-field label {
-  color: #fff;
+	color: #fff;
 }
 /* label focus color */
-.input-field input[type=text]:focus + label {
-  color: #231651 !important;
+.input-field input[type='text']:focus + label {
+	color: #231651 !important;
 }
 /* label underline focus color */
-.input-field input[type=text]:focus {
-  border-bottom: 1px solid #231651 !important;
-  /* box-shadow: 0 1px 0 0 #231651; */
+.input-field input[type='text']:focus {
+	border-bottom: 1px solid #231651 !important;
+	/* box-shadow: 0 1px 0 0 #231651; */
 }
 /* label underline color */
-.input-field input[type=text] {
-  border-bottom: 1px solid #fff !important;
-  /* box-shadow: 0 1px 0 0 #000; */
+.input-field input[type='text'] {
+	border-bottom: 1px solid #fff !important;
+	/* box-shadow: 0 1px 0 0 #000; */
 }
 /* valid color */
-.input-field input[type=text].valid {
-  border-bottom: 1px solid #000;
-  box-shadow: 0 1px 0 0 #000;
+.input-field input[type='text'].valid {
+	border-bottom: 1px solid #000;
+	box-shadow: 0 1px 0 0 #000;
 }
 /* invalid color */
-.input-field input[type=text].invalid {
-  border-bottom: 1px solid #000;
-  box-shadow: 0 1px 0 0 #000;
+.input-field input[type='text'].invalid {
+	border-bottom: 1px solid #000;
+	box-shadow: 0 1px 0 0 #000;
 }
 /* icon prefix focus color */
 .input-field .prefix.active {
-  color: #231651 !important;
+	color: #231651 !important;
 }
 
 /* Textarea form styling */
 /* label focus color */
 .input-field textarea:focus + label {
-  color: #231651 !important;
+	color: #231651 !important;
 }
 /* label underline focus color */
 .input-field textarea:focus {
-  border-bottom: 1px solid #231651 !important;
-  /* box-shadow: 0 1px 0 0 #231651; */
+	border-bottom: 1px solid #231651 !important;
+	/* box-shadow: 0 1px 0 0 #231651; */
 }
 /* label underline color */
 .input-field textarea {
-  border-bottom: 1px solid #fff !important;
-  /* box-shadow: 0 1px 0 0 #000; */
+	border-bottom: 1px solid #fff !important;
+	/* box-shadow: 0 1px 0 0 #000; */
 }
-
 
 footer {
-  min-width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
-  bottom: 0;
-  /* padding: 10px; */
-  padding-right: 15px !important;
-  padding-left: 15px !important;
+	min-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	position: relative;
+	bottom: 0;
+	/* padding: 10px; */
+	padding-right: 15px !important;
+	padding-left: 15px !important;
 }
 
-@media (max-width: 576px) { 
-  .tag-line{
-    font-size: 1.40rem;
-  }
+@media (max-width: 576px) {
+	.tag-line {
+		font-size: 1.4rem;
+	}
 
-  .box-text.name{
-    font-size: 2.5rem;
-  }
+	.box-text.name {
+		font-size: 2.5rem;
+	}
 
- .box-text{
-   font-size: 1.3rem;
-  }
+	.box-text {
+		font-size: 1.3rem;
+	}
 
-  .card-title {
-    font-weight: 700px !important;
-    font-size: 1.5rem !important;
-  }
+	.card-title {
+		font-weight: 700px !important;
+		font-size: 1.5rem !important;
+	}
 
-  #p1Title { 
-    color: #231651 !important;
-    padding-left: 120px !important;
-    margin-bottom: 15px !important;
-  }
-  
-  #p2Title { 
-    padding-left: 50px !important;
-    color: #231651 !important;
-    margin-bottom: -15px !important;
-  }
-  
-  #p5Title { 
-    padding-left: 82px !important;
-    margin-bottom: 85px !important;
-  }
+	#p1Title {
+		color: #231651 !important;
+		padding-left: 120px !important;
+		margin-bottom: 15px !important;
+	}
 
-  #p4Title { 
-    padding-left: 120px !important;
-    color: #231651 !important;
-    margin-bottom: -15px !important;
-  }
+	#p2Title {
+		padding-left: 50px !important;
+		color: #231651 !important;
+		margin-bottom: -15px !important;
+	}
 
-  #p6Pic {
-    height: 370px !important;
-  }
-  
-  #p6Title { 
-    padding-left: 50px !important;
-    margin-bottom: 145px !important;
-  }
+	#p5Title {
+		padding-left: 82px !important;
+		margin-bottom: 85px !important;
+	}
 
-  .card-action > a {
-    /* color: white !important;
+	#p4Title {
+		padding-left: 120px !important;
+		color: #231651 !important;
+		margin-bottom: -15px !important;
+	}
+
+	#p6Pic {
+		height: 370px !important;
+	}
+
+	#p6Title {
+		padding-left: 50px !important;
+		margin-bottom: 145px !important;
+	}
+
+	.card-action > a {
+		/* color: white !important;
     text-align: center !important; */
-    margin-left: 14px;
-  }
+		margin-left: 14px;
+	}
 
-  .icon {
-    height: 20px !important;
-    width: 80px;
-    padding-top: 20px;
-  }
+	.icon {
+		height: 20px !important;
+		width: 80px;
+		padding-top: 20px;
+	}
 
-  #iconDiv{
-    margin-top: 10px !important;
-  }
+	#iconDiv {
+		margin-top: 10px !important;
+	}
 
-  .form-header {
-    font-size: 1.5rem;
-  }
+	.form-header {
+		font-size: 1.5rem;
+	}
 
-  footer {
-    font-size: 0.7rem;
-  }
+	footer {
+		font-size: 0.7rem;
+	}
 }
