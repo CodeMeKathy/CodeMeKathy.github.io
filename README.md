@@ -14,4 +14,4 @@ Designed and implemented by Kathy Lambert.
 
 * [HTML](https://www.w3.org/TR/html52/)
 * [CSS](https://www.w3.org/Style/CSS/)
-* [JavaScript](https://www.javascript.com/)
+* [Materialize CSS](https://materializecss.com)
