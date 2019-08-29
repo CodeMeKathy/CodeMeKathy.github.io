@@ -2,7 +2,7 @@
 
 `Live site:` https://KathyLambert.me
 
-`GitHub <code/>:` https://KathyLambert.me
+`GitHub <code/>:` https://github.com/CodeMeKathy/CodeMeKathy.github.io
 
 ## Overview
 ----
