@@ -1,3 +1,5 @@
 {
-  "liveServer.settings.port": 4201
+  "liveServer.settings.port": 4201,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 60
 }
