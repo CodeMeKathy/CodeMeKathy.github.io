@@ -62,11 +62,11 @@
 
 <body >
   <!-- class="cyan darken-1" -->
-  <header>
-    <nav class="nav-extended nav">
+  <header id="header">
+    <nav id="nav-bar" class="nav-extended nav">
     <!-- <nav class="nav-extended cyan darken-1 nav"> -->
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo" id="logo"><img style="padding: .5rem" src="./images/Logo.png" alt="logo" width="75" height="75"></a>
+        <a href="#" class="brand-logo" id="header-img"><img style="padding: .5rem" src="./images/Logo.png" alt="logo" width="75" height="75"></a>
         <ul id="slide-out" class="sidenav">
           <li><a href="#!">First Sidebar Link</a></li>
           <li><a href="#!">Second Sidebar Link</a></li>
@@ -88,13 +88,13 @@
         </ul>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li>
-            <a href="#top">Home</a>
+            <a href="#top" class="nav-link">Home</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about" class="nav-link">About</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
           </li>
           <!-- <li>
             <a href="resume.html">Resume</a>
@@ -274,7 +274,7 @@
             <h2 class="center form-header">Contact Me</h2>
             <h5 class="center form-header">Let me know about great opportunities!</h5>
           </div>
-          <form class="col s12" action="https://formspree.io/tkathleen.lambert@gmail.com" method="POST">
+          <form id="form" class="col s12" action="https://formspree.io/tkathleen.lambert@gmail.com" method="POST">
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">perm_contact_calendar</i>
@@ -283,7 +283,7 @@
               </div>
               <div class="input-field col s12">
                 <i class="material-icons prefix">email</i>
-                <input id="email" name="_replyto" type="text" class="validate">
+                <input id="email" name="_replyto" type="text" class="validate" placeholder="something@email.com">
                 <label for="email">Email</label>
               </div>
             </div>
@@ -296,7 +296,7 @@
             </div>
             <div class="row">
               <div class="col s12 center">
-                <button class="btn waves-effect waves-light cyan darken-1 white-text form-submit" type="submit">
+                <button id="submit" class="btn waves-effect waves-light cyan darken-1 white-text form-submit" type="submit">
                   <i class="material-icons">send</i> Send</button>
               </div>
             </div>
