@@ -59,6 +59,13 @@ section {
 	font-size: 37px;
 }
 
+.arrow-down {
+	animation: arrowDownMovement 2s;
+	animation-delay: 2s;
+	animation-iteration-count: 3;
+	
+}
+
 /*! My Work Styling */
 
 div.row.myWork {
@@ -206,6 +213,22 @@ footer {
 	/* padding: 10px; */
 	padding-right: 15px !important;
 	padding-left: 15px !important;
+}
+
+
+/*! Animation */
+
+@keyframes arrowDownMovement{
+	0% {
+		opacity: 0;
+		transform: translateY(0px)
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(50px)
+	}	
+
+
 }
 
 /*! Media Queries */
