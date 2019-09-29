@@ -63,7 +63,6 @@ section {
 	animation: arrowDownMovement 2s;
 	animation-delay: 2s;
 	animation-iteration-count: 3;
-	
 }
 
 /*! My Work Styling */
@@ -202,6 +201,13 @@ div.row.myWork {
 	/* box-shadow: 0 1px 0 0 #000; */
 }
 
+/*! Thank You Section  */
+.arrow-up {
+	animation: arrowUpMovement 2s;
+	animation-delay: 10s;
+	animation-iteration-count: 3;
+}
+
 /*! Footer Styling */
 footer {
 	min-width: 100%;
@@ -215,20 +221,28 @@ footer {
 	padding-left: 15px !important;
 }
 
-
 /*! Animation */
 
-@keyframes arrowDownMovement{
+@keyframes arrowDownMovement {
 	0% {
 		opacity: 0;
-		transform: translateY(0px)
+		transform: translateY(0px);
 	}
 	100% {
 		opacity: 1;
-		transform: translateY(50px)
-	}	
+		transform: translateY(50px);
+	}
+}
 
-
+@keyframes arrowUpMovement {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
 }
 
 /*! Media Queries */
