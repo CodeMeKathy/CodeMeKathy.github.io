@@ -137,6 +137,16 @@ div.row.myWork {
 	padding-bottom: 45px !important;
 }
 
+.card1::before {
+	content: '';
+	display: initial;
+	background-color: pink;
+	width: 95%;
+	height: 51%;
+	position: absolute;
+	z-index: 1;
+}
+
 /*! Materialize Form Styling */
 
 .form {
