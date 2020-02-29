@@ -133,18 +133,31 @@ div.row.myWork {
   margin-top: 100px !important;
 } */
 
-.social {
-	padding-bottom: 45px !important;
-}
+/* Card Before Elements */
 
 .card1::before {
-	content: '';
+	content: 'Hello World';
 	display: initial;
-	background-color: pink;
-	width: 95%;
-	height: 51%;
+	background-color: rgba(255, 192, 203, 0.705);
+	width: auto;
+	height: auto;
 	position: absolute;
 	z-index: 1;
+}
+
+/* Card Before Elements */
+
+.card1:hover{
+	content: '';
+	display: initial;
+	z-index: 1;
+	transform: translateX(5px);
+	background-color: navy;
+}
+
+/* Social Icons & Contact Section  */
+.social {
+	padding-bottom: 45px !important;
 }
 
 /*! Materialize Form Styling */
@@ -213,9 +226,9 @@ div.row.myWork {
 
 /*! Thank You Section  */
 .arrow-up {
-	animation: arrowUpMovement 2s;
-	animation-delay: 10s;
-	animation-iteration-count: 3;
+	animation: arrowUpMovement 4s;
+	animation-delay: 20s;
+	animation-iteration-count: 6;
 }
 
 /*! Footer Styling */
