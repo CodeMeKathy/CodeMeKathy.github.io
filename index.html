@@ -37,11 +37,11 @@
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <!-- Compiled and minified CSS -->
+  <!-- Materialize Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>         
+  <!-- Compiled and minified JavaScript
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>          -->
 
 <!-- CSS -->
   <link rel="stylesheet" href="./portfolio.css">
@@ -66,29 +66,18 @@
     <nav id="nav-bar" class="nav-extended nav">
     <!-- <nav class="nav-extended cyan darken-1 nav"> -->
       <div class="nav-wrapper">
+        <!-- CodeMeKathy Logo visible on large screen devices -->
         <a href="#" class="brand-logo" id="header-img"><img style="padding: .5rem" src="./images/Logo.png" alt="logo" width="75" height="75"></a>
-        <ul id="slide-out" class="sidenav">
-          <li><a href="#!">First Sidebar Link</a></li>
-          <li><a href="#!">Second Sidebar Link</a></li>
-          <li class="no-padding">
-            <ul class="collapsible collapsible-accordion">
-              <li>
-                <a class="collapsible-header">Dropdown<i class="material-icons">arrow_drop_down</i></a>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a href="#!">First</a></li>
-                    <li><a href="#!">Second</a></li>
-                    <li><a href="#!">Third</a></li>
-                    <li><a href="#!">Fourth</a></li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        
+        <!-- Navbar Large Devices -->
+        <ul id="" class="right hide-on-med-and-down">
           <li>
             <a href="#top" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="./assets/KathyLambertResume.pdf">Resume</a>
           </li>
           <li>
             <a href="#about" class="nav-link">About</a>
@@ -96,9 +85,6 @@
           <li>
             <a href="#portfolio" class="nav-link">Portfolio</a>
           </li>
-          <!-- <li>
-            <a href="resume.html">Resume</a>
-          </li> -->
           <li>
             <a href="#contact">Contact</a>
           </li>
@@ -108,6 +94,27 @@
         </ul>
       </div>
     </nav>
+    <ul class="right sidenav" id="mobile-demo">
+      <li>
+        <a href="#top" class="nav-link">Home</a>
+      </li>
+      <li>
+        <a href="./assets/KathyLambertResume.pdf">Resume</a>
+      </li>
+      <li>
+        <a href="#about" class="nav-link">About</a>
+      </li>
+      <li>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+      <li>
+        <a href="support-ticket.html">Request Support Ticket</a>
+      </li>
+    </ul>
+
   </header>
   <main class="row white-text top">
     <div class="row">
@@ -324,7 +331,8 @@
       </p>
     </div>
   </footer>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
