@@ -201,7 +201,10 @@ div.row.myWork {
   /* box-shadow: 0 1px 0 0 #000; */
 }
 
-
+#email::placeholder {
+  color: #fff;
+  font-size: 1rem;
+}
 
 /*! Thank You Section  */
 .arrow-up {
@@ -258,10 +261,10 @@ footer {
 /* footer */
 @media (max-width: 700px) {
   footer {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media (max-width: 576px) {
   .tag-line {
