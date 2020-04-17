@@ -1,8 +1,13 @@
-/* :root { */
-/* --main-bkgd-color: #00B8CB; */
+/* Variables */
+
+:root {
+  --cmkBlu: #00b8cb;
+  --magnoliaPink: #bf5272;
+}
+
+/* CMK Blu Options */
 /* #00B0C4 : cyan darken-1 */
 /* #00BDCE */
-/* } */
 
 /*! Overall Styling */
 body {
@@ -12,12 +17,12 @@ body {
   min-height: 100vh;
   /* min-width: 100vw !important; */
   font-family: 'Raleway', sans-serif;
-  background-color: #00b8cb !important;
+  background-color: var(--cmkBlu) !important;
 }
 
 /*! NavBar Styling */
 .nav-extended {
-  background-color: #00b8cb !important;
+  background-color: var(--cmkBlu) !important;
 }
 
 #about,
@@ -136,6 +141,19 @@ div.row.myWork {
 .social {
   padding-bottom: 45px !important;
 }
+
+.card-1 {
+  background-color: #ffd166;
+}
+.card-4 {
+  background-color: #ffd166;
+}
+/* .card-1 {
+  background-color: var(--magnoliaPink);
+}
+.card-4 {
+  background-color: var(--magnoliaPink);
+} */
 
 /*! Materialize Form Styling */
 
