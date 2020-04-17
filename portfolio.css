@@ -143,17 +143,21 @@ div.row.myWork {
 }
 
 .card-1 {
-  background-color: #ffd166;
+  background-color: #f76f91;
 }
-.card-4 {
-  background-color: #ffd166;
+.card-2 {
+  background-color: #7abadc;
 }
-/* .card-1 {
-  background-color: var(--magnoliaPink);
+.card-3 {
+  background-color: #8592e0;
 }
-.card-4 {
-  background-color: var(--magnoliaPink);
+/* .card-3 {
+  background-color: #82abf7;
 } */
+.card-4 {
+  background-color: #c67bc0;
+}
+
 
 /*! Materialize Form Styling */
 
