@@ -7,7 +7,14 @@
 
 /* CMK Blu Options */
 /* #00B0C4 : cyan darken-1 */
-/* #00BDCE */
+
+/* Possible Color Palette
+--cmkBlu: #00B8CB
+--magnoliaPink: #bf5272
+#26547C
+#EF476F
+#FFD166
+ */
 
 /*! Overall Styling */
 body {
@@ -142,6 +149,7 @@ div.row.myWork {
   padding-bottom: 45px !important;
 }
 
+/* MyWork Card Colors */
 .card-1 {
   background-color: #f76f91;
 }
@@ -229,6 +237,8 @@ div.row.myWork {
 }
 
 /*! Thank You Section  */
+
+/* Arrow Annimation */
 .arrow-up {
   animation: arrowUpMovement 2s;
   animation-delay: 10s;
@@ -248,7 +258,7 @@ footer {
   padding-left: 15px !important;
 }
 
-/*! Animation */
+/*! Animations */
 
 @keyframes arrowDownMovement {
   0% {
