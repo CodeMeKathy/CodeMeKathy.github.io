@@ -1,7 +1,7 @@
 /* Variables */
 
 :root {
-  --cmkBlu: #00B8CB;
+  --cmkBlu: #00b8cb;
   --magnoliaPink: #bf5272;
 }
 
@@ -40,6 +40,10 @@ body {
 
 .nav {
   box-shadow: none !important;
+}
+.brand-logo img {
+  height: 3rem;
+  margin-top: 1rem !important;
 }
 
 .name {
@@ -165,7 +169,6 @@ div.row.myWork {
 .card-4 {
   background-color: #c67bc0;
 }
-
 
 /*! Materialize Form Styling */
 
