@@ -37,14 +37,8 @@
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <!-- Materialize Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-  <!-- Compiled and minified JavaScript
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>          -->
-
 <!-- CSS -->
-  <link rel="stylesheet" href="./portfolio.css">
+  <link rel="stylesheet" href="./styles.css">
   <title>Kathy Lambert | Developer Extraordinaire</title>
 
 <!-- Favicon -->
@@ -61,292 +55,37 @@
 </head>
 
 <body >
-  <!-- class="cyan darken-1" -->
-  <header id="header">
-    <nav id="nav-bar" class="nav-extended nav">
-    <!-- <nav class="nav-extended cyan darken-1 nav"> -->
-      <div class="nav-wrapper">
-        <!-- CodeMeKathy Logo ONLY visible on large screen devices -->
-        <a href="#" class="brand-logo" id="header-img"><img style="padding: .5rem" src="./images/CMK-Computer.svg" alt="logo" width="75" height="75"></a>
-        
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        
-        <!-- Navbar Large Devices -->
-        <ul id="" class="right hide-on-med-and-down">
-          <li>
-            <a href="#top" class="nav-link">Home</a>
-          </li>
-          <li>
-            <a href="./assets/KathyLambertResume.pdf">Resume</a>
-          </li>
-          <li>
-            <a href="#about" class="nav-link">About</a>
-          </li>
-          <li>
-            <a href="#portfolio" class="nav-link">Portfolio</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-          <li>
-            <a href="support-ticket.html">Request Support Ticket</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <ul class="right sidenav" id="mobile-demo">
-      <li>
-        <a href="#top" class="nav-link">Home</a>
-      </li>
-      <li>
-        <a href="./assets/KathyLambertResume.pdf">Resume</a>
-      </li>
-      <li>
-        <a href="#about" class="nav-link">About</a>
-      </li>
-      <li>
-        <a href="#portfolio" class="nav-link">Portfolio</a>
-      </li>
-      <li>
-        <a href="#contact">Contact</a>
-      </li>
-      <li>
-        <a href="support-ticket.html">Request Support Ticket</a>
-      </li>
+<!-- Header Begins -->
+<header>
+  <a href="#home" class="header--logo"><img src="./images/KL-Computer.svg" alt="">
+  </a>
+  <nav>
+    <ul class="header--nav-bar"><div class="header--bg-nav"></div>
+      <li><a class='header--nav-link' href=""></a>Home</li>
+      <li><a class='header--nav-link' href=""></a>Portfolio</li>
+      <li><a class='header--nav-link' href=""></a>Contact</li>
+      <li><a class='header--nav-link' href=""></a>Request Support Ticket</li>
     </ul>
+    <div class="header--small-hamburger">
+      <div class="header--small-hamburger-line1"></div>
+      <div class="header--small-hamburger-line2"></div>
+      <div class="header--small-hamburger-line3"></div>
+    </div>
+  </nav>
+</header>
+<!-- Begins-->
 
-  </header>
-  <!-- Hero Div Begins -->
-  <main class="row white-text top">
-    <div class="row">
-      <section class="col s12 m12 valign-wrapper">
-        <div class="box-text name center" id="name">Kathy Lambert</div>
-        <a href="#tag-line" style="text-decoration: none;"><i class="material-icons arrow-down" style="color: white;">keyboard_arrow_down</i></a>
-      </section>
-    </div>
-    <div class="row">
-      <div class="line col s10 offset-s1"></div>
-    </div>
-    <section class="row" id="about">
-      <div class="row">
-        <div class="col s12">
-          <div class="center valign-wrapper tag-line" id="tag-line">
-            <p>Software Developer | Project Manager</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12 l8 offset-l2">
-          <div class="valign-center box-text center brand">
-            I am an intellectually curious individual with an insatiable desire to understand. I utilize my diverse background, experiences, and skills to help me be a resourceful, organized and forward-thinking project manager, web designer, and software developer.
-          </div>
-        </div>
-      </div>
-    </section>
-  <!-- Hero Div Ends -->
-  <!-- MyWork Begins -->
-  <section class="row" id="portfolio">
-    <div class="row">
-      <h3>My Work</h3>
-    </div>
-    <div class="row myWork">
-      <div class="col s12 l6">
-        <div class="card medium card-1 white-text">
-          <div class="card-image">
-            <!-- <img class='card-img' src="./images/AssistU-Port-Pic.png" alt="AssistU"> -->
-            <img src="./images/Portfolio-Image.png" alt="AssistU">
-            <span class="card-title center" id="p1Title"></span>
-          </div>
-          <!-- Card #1: AssistU Begins -->
-          <div class="card-content">
-            <!-- <h6>AssistU</h6> -->
-            <p> <span style="color: #000000;">AssistU => </span> Designed and implemented with HTML, CSS, and Bootstrap. A JavaScript and NodeJS full-stack application which utilizes MongoDB and MongooseJS for database management.
-            </p>
-          </div>
-          <div class="card-action center">
-            <a href="http://bit.ly/Assist-U">Live Site</a>
-            <a href="http://bit.ly/AssistUGitHub">Source Code</a>
-          </div>
-        </div>
-      </div>
-      <!-- Card #1: AssistU Ends -->
-      <!-- Card #2: Cookbook Manager Begins -->
-      <div class="col s12 l6">
-        <div class="card medium card-2 white-text">
-          <div class="card-image">
-            <img class='card-img' src="https://github.com/Kathy145/mernlab/blob/master/public/Family%20Cookbook%202018-03-16%2017-37-03.png?raw=true" alt="Family Cookbook Manager">
-            <span class="card-title" id="p2Title"></span>
-          </div>
-          <div class="card-content" id="p2Text">
-            <!-- <h6>Family Cookbook Manager</h6> -->
-            <p> <span style="color: #000000;">Family Cookbook Manager => </span> A front-end ReactJS client-side JavaScript engineered & designed Materialize and CSS application connected to a <a href="https://github.com/CodeMeKathy/familyCookbookManager" style="text-decoration: none;color: #231651;">RESTful API</a>. 
-            </p>
-          </div>
-          <div class="card-action center" id="p2Links">
-            <a href="https://familycookbookmanager.herokuapp.com/" style="color: #fff">Live Site</a>
-            <a href="https://github.com/Kathy145/familyCookbookManager/tree/mernlab" style="color: #fff">Source Code</a> 
-          </div>
-        </div>
-      </div>
-      <!-- Card #2: Cookbook Manager Ends -->
-      <!-- Card #3: Where is Matters Begins -->
-      <div class="col s12 l6">
-        <div class="card medium card-3 white-text">
-          <div class="card-image">
-            <img class='card-img' src="https://raw.githubusercontent.com/Kathy145/Kathy145.github.io/master/images/Where%20It%20Matters%202018-06-11%2012-24-03.png" alt="Where It Matters Picture">
-            <span class="card-title project3" style="color: #fff;" alt="Where it Matters" id="p3Title"></span>
-          </div>
-          <div class="card-content white-text">
-            <!-- <h6>Where it Matters</h6> -->
-            <p> <span style="color: #000000;">Where it Matters => </span> BisonHacks 2018 2nd Place Winner! A ReactJS constructed front-end application connected with the OrgHunter Charity API designed with Materialize and CSS.</p>
-          </div>
-          <div class="card-action center">
-            <a href="https://whereitmatters.herokuapp.com/" style="color: #fff">Live Site</a>
-            <a href="https://github.com/keaglin/bisonhacks-front" style="color: #fff">Source Code</a>
-          </div>
-        </div>
-      </div>
-      <!-- Card #3: Where is Matters Ends -->
-      <!-- Card #4: Memory Game Begins -->
-      <div class="col s12 l6">
-        <div class="card medium card-4 white-text">
-          <div class="card-image">
-            <img class='card-img' src="./images/Memory.png" alt="Memory Game Picture">
-            <span class="card-title project3" style="color: #fff" id="p4Title"></span>
-          </div>
-          <div class="card-content white-text">
-            <!-- <h6>Memory Game</h6> -->
-            <p> <span style="color: #000000;">Memory Cards => </span> A card matching game engineered with HTML, CSS, Javascript with Font Awesome and Bootstrap libraries.</p>
-          </div>
-          <div class="card-action center">
-            <a href="https://KathyLambert.me/friendly-games">Live Site</a>
-            <a href="https://github.com/CodeMeKathy/friendly-games">Source Code</a>
-          </div>
-        </div>
-      </div>
-      <!-- Card #4: Memory Game Ends -->
-      
-      <!--! Additional Projects  -->
-      <!-- <div class="col s12 l6">
-        <div class="card medium cyan darken-1 white-text">
-          <div class="card-image">
-            <img src="./images/comingSoonAlt.jpg" id="p5Pic">
-              <span class="card-title project3" style="color: #fff" id="p5Title">JavaScript Projects</span>
-            </div>
-            <div class="card-content white-text">
-              <p> A collection of small JavaScript Projects I am creating to learn and display some of my capabilities.</p>
-            </div>
-            <div class="card-action center">
-              <a href="https://KathyLambert.me/JSTut" style="color: #fff">Live Site</a>
-              <a href="https://github.com/CodeMeKathy/JSTut" style="color: #fff">Source Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 l6">
-          <div class="card medium cyan darken-1 white-text">
-            <div class="card-image">
-              <img src="./images/coming-soon-construction-data-211122.jpg" id="p6Pic">
-              <span class="card-title" style="color: #fff" id="p6Title">Unlock Academy Projects</span>
-            </div>
-            <div class="card-content white-text">
-              <p> Projects I am currently completing through my participation within Unlock Academy.</p>
-            </div>
-            <div class="card-action center">
-              <a href="https://KathyLambert.me/Unlock-Academy" style="color: #fff">Live Site</a>
-              <a href="https://github.com/CodeMeKathy/Unlock-Academy" style="color: #fff">Source Code</a>
-            </div>
-          </div>
-        </div> -->
-      </div>
-    </section>
-    <!-- MyWork Ends -->
-    <section class="row" id="contact">
-      <div class="row social">
-        <div class="col s12">
-          <h2 class="center" id="socialHeader">Get to know me better!</h2>
-        </div>
-        <div class="col s12">
-          <h2 class="center" id="iconDiv">
-            <a href="./assets/KathyLambertResume.pdf" target="blank">
-                <i class="icon fas fa-file-alt" style="color: #fff"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/k-lambert/" target="blank">
-              <i class="icon fab fa-linkedin-in" style="color: #fff"></i>
-            </a>
-            <a href="http://bit.ly/32vBigV" target="blank">
-              <i class="icon fab fa-github" style="color: #fff"></i>
-            </a>
-            <!-- <a href="https://www.freecodecamp.org/codemekathy" target="blank">
-              <i class="icon fab fa-free-code-camp" style="color: #fff"></i>
-            </a> -->
-            <a href="mailto:Kathy@KathyLambert.me?Subject=Hi%20from%20KathyLambert.me">
-              <i class="icon fas fa-at" style="color: #fff"></i>
-            </a>
-            <a href="https://twitter.com/CodeMeKathy" target="blank">
-              <i class="icon fab fa-twitter" style="color: #fff"></i>
-            </a>
-          </h2>
-        </div>
-      </div>
-      
-      <div class="row">
-        <div class="form col s10 offset-s1">
-          <div class="col s12">
-            <h2 class="center form-header">Contact Me</h2>
-            <h5 class="center form-header">Let me know about great opportunities!</h5>
-          </div>
-          <form id="form" class="col s12" action="https://formspree.io/tkathleen.lambert@gmail.com" method="POST">
-            <div class="row">
-              <div class="input-field col s12">
-                <i class="material-icons prefix">perm_contact_calendar</i>
-                <input id="name" name="name" type="text" class="validate">
-                <label for="name">Full Name</label>
-              </div>
-              <div class="input-field col s12">
-                <i class="material-icons prefix">email</i>
-                <input id="email" name="_replyto" type="text" class="validate" placeholder="Something@email.com">
-                <label for="email">Email</label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <i class="material-icons prefix">message</i>
-                <textarea id="message" name="message" class="materialize-textarea"></textarea>
-                <label for="message">Message</label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col s12 center">
-                <button id="submit" class="btn waves-effect waves-light cyan darken-1 white-text form-submit" type="submit">
-                  <i class="material-icons">send</i> Send</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
-    <section class="thanks col s12 m12 valign-wrapper" style="background-color: #bf5272">
-      <div class="name center" style="font-family: 'Clicker Script', cursive; font-size: 6rem;">Thank you for coming!
-      </div>
-      <a href="#" style="text-decoration: none;"><i class="material-icons arrow-up" style="color: white;">keyboard_arrow_up</i></a>
-    </section>
-  </main>
-  <footer class="white-text">
-    <div class="footer-div">
-      <!-- <p> <span style="font-family: 'Clicker Script', cursive;"> CodeMeKathy </span> &copy; 2020 CodeMeKathy</p> -->
-      <p><span style="font-family: 'Clicker Script',  cursive; font-size: 1.55rem;">CodeMeKathy</span> &copy; 2020</p>
-    </div>
-    <div>
-      <p>
-        Handmade with
 
-        <span style="color:red;">&#10084;</span> and lots of <i class="fas fa-coffee"></i> by
-        <span class="footer-name">Kathy Lambert</span>
-      </p>
-    </div>
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="./script.js"></script>
 </body>
 
 </html>
