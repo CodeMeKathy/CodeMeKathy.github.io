@@ -1,6 +1,75 @@
-/* ---------- Header ------------*/
+/* ------------ Font Imports ------------ */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+/* ----------  Variables ---------- */
+
+:root {
+  --cmkBlu: #00b8cb;
+  --magnoliaPink: #bf5272;
+  --font-primary-color: #fff;
+  --font-main: 'Raleway', sans-serif;
+}
+
+/* ---------- Overall Styling ---------- */
+* {
+  font-family: var(--font-main);
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: var(--cmkBlu);
+}
+
+/* ---------- Header ------------ */
+header {
+  display: flex;
+  margin: 0 auto;
+  width: 100vw;
+  height: 4.375rem;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
 .header--logo img {
-  padding-top: 5px;
-  height: 3.125rem;
+  padding: 0.85rem;
+  height: 2.7rem;
+}
+.header--nav-bar {
+  list-style: none;
+  position: relative;
+  display: inline-flex;
+}
+a.header--nav-link {
+  margin: 0.5rem;
+  padding: 0.3125rem 0.625rem;
+  text-decoration: none;
+  color: var(--font-primary-color);
+}
+a.header--nav-link:active,
+a.header--nav-link:hover {
+  background-color: var(--magnoliaPink);
+  border-radius: 5px;
+  box-shadow: 2px 4px 8px #585858;
+  /* drop-shadow: 2px 4px 8px #585858; */
+}
+
+/* ---------- Home ------------*/
+.home {
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ------------ Introduction ------------ */
+.home--introduction {
+  margin: auto;
+  z-index: 1;
+  padding: 1.25rem 1.25rem;
+}
+.home--introduction-header {
+  font-family: var(--font-, aim);
+  color: var(--font-primary-color);
 }
