@@ -175,3 +175,30 @@ a.header--nav-link:hover {
   color: #26547c !important; /* TODO: Change Color */
   filter: drop-shadow(0.15rem 0.15rem 8px #ffd166); /* TODO: Change Color */
 }
+/* ------------ My Projects ------------ */
+.projects--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-top: 33.25rem; */
+  height: fit-content;
+  background-color: var(--cmkBlu);
+  padding: 2rem;
+}
+.projects--box {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex: 1; */
+  width: 65vw;
+  align-items: center;
+  justify-content: center;
+}
+.projects--card {
+  display: flex;
+  flex-direction: column;
+  width: 17.5rem;
+  height: 17.625rem;
+  margin: 1rem;
+}
