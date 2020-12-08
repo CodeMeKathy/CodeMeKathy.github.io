@@ -1,12 +1,13 @@
 /* ------------ Font Imports ------------ */
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 
 /* ----------  Variables ---------- */
 
 :root {
   --cmkBlu: #00b8cb;
   --magnoliaPink: #bf5272;
-  --font-primary-color: #fff;
+  --font-primary-color: #f5f5f5;
   --font-main: 'Raleway', sans-serif;
 }
 
@@ -16,7 +17,43 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  background-color: var(--cmkBlu);
+  /* background-color: var(--cmkBlu); */
+}
+
+hr {
+  background: #fff;
+  margin: 0.125rem;
+  height: 0.18rem;
+  width: 18rem;
+  border-radius: 0.325rem;
+  border: hidden;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+/* Chrome Scrollbar */
+::-webkit-scrollbar {
+  width: 0.325rem;
+  background: var(--cmkBlu);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--magnoliaPink);
+  box-shadow: inset 0 0 0.75rem var(--magnoliaPink);
+}
+/* ::-webkit-scrollbar-track {
+  border-radius: 0.625rem;
+  margin-top: 2.5rem;
+} */
+
+/* Firefox Scrollbar */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--magnoliaPink) var(--cmkBlu);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }
 
 /* ---------- Header ------------ */
@@ -52,24 +89,89 @@ a.header--nav-link:hover {
   background-color: var(--magnoliaPink);
   border-radius: 5px;
   box-shadow: 2px 4px 8px #585858;
-  /* drop-shadow: 2px 4px 8px #585858; */
+  /* filter: drop-shadow(2px 0.325rem 8px #585858); */
 }
 
 /* ---------- Home ------------*/
-.home {
-  margin: auto;
+
+.home--container {
+  /* margin: 0 auto; */
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-evenly;
+  background: url(./images/apple-black-and-white-black-and-white-169573-768x512.jpg);
+  position: relative;
+}
+.home--filter {
+  z-index: 9;
+  /* background-color: #c36c6c; */
+  background-color: #26547c;
+
+  /* position: absolute; */
+  /* Sit on top of the page content */
+  /* display: none; Hidden by default */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.home--container,
+.home--filter {
+  margin: 0 auto;
   height: 100vh;
   display: flex;
   flex-direction: column;
+  /* background: url(./images/IMG-20190107-WA0036.jpg); */
+  /* background: url(./images/apple-black-and-white-black-and-white-169573-768x512.jpg); */
+  background-size: cover;
+  background-position: center;
+  /* position: absolute; */
+  opacity: 0.7;
+  /* top: -10px; */
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  right: 0;
 }
 
-/* ------------ Introduction ------------ */
+/* ---- Home Introduction ---- */
 .home--introduction {
   margin: auto;
-  z-index: 1;
+  z-index: 10;
   padding: 1.25rem 1.25rem;
+  text-align: center;
+  color: var(--font-primary-color);
 }
 .home--introduction-header {
-  font-family: var(--font-, aim);
+  /* font-family: var(--font-main); */
+  /* font-family: 'Parisienne', cursive; */
+  /* font-family: 'Alex Brush', cursive; */
+  /* font-family: 'Bilbo Swash Caps', cursive; */
+  font-family: 'Tangerine', cursive;
   color: var(--font-primary-color);
+  font-size: 5.6rem;
+
+  filter: drop-shadow(2px 0.325rem 8px #a55151); /* TODO: Change Color */
+  padding-bottom: 0.87rem;
+  margin-top: 5rem;
+}
+.home--introduction-title {
+  font-weight: 600;
+  font-size: 1.7rem;
+  padding-bottom: 1.95rem;
+}
+.home--introduction-sub-bio {
+  font-size: 1.12rem;
+  margin: 1rem 9.5rem;
+}
+.home-introduction--social-media a {
+  font-size: 2.25rem;
+  color: var(--font-primary-color);
+  text-decoration: none;
+}
+.home-introduction--social-media a:hover {
+  /* color: var(--magnoliaPink) !important; TODO: Change Color */
+  color: #26547c !important; /* TODO: Change Color */
+  filter: drop-shadow(0.15rem 0.15rem 8px #ffd166); /* TODO: Change Color */
 }
